@@ -1,0 +1,23 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "Food Odering App",
+  "homepage": "https://github.com/pragatidwivedii/Food-Ordering-App#readme",
+  "bugs": {
+    "url": "https://github.com/pragatidwivedii/Food-Ordering-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pragatidwivedii/Food-Ordering-App.git"
+  },
+  "license": "ISC",
+  "author": "Pragati Dwivedi",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
