@@ -13,11 +13,14 @@
   "license": "ISC",
   "author": "Pragati Dwivedi",
   "type": "commonjs",
-  "main": "script.js",
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   }
 }
