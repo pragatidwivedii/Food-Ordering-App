@@ -25,7 +25,7 @@ const Body = () => {
         // }));
         setListOfResturant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFilteredList(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        //console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
 
     const onlinestatus = useOnlineStatus();
@@ -61,7 +61,7 @@ const Body = () => {
                         const cuisines = res.info.cuisines.join(",").toLowerCase();
                         const name = res.info.name.toLowerCase();
                         const search = searchText.toLowerCase();
-                        console.log(cuisines);
+                        // console.log(cuisines);
                         return (name == search  || cuisines.includes(search) || name.includes(search));
                     });
                     setFilteredList(list);

@@ -12,16 +12,21 @@ import {createBrowserRouter , RouterProvider ,Outlet} from "react-router";
 import Restaurantmenu from "./components/Restaurantmenu";
 import useOnlineStatus from "./utils/useOnlineStatus";
 import OnlineStatus from "./components/OnlineStatus";
+import appStore from "./utils/appStore";
+import {Provider} from "react-redux";
 // import Grocery from "./components/Grocery";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
     const onlineStatus = useOnlineStatus();
-    return (onlineStatus) ? ( <div>
+    return (onlineStatus) ? ( 
+    <Provider store={appStore}>
+    <div>
         <Header/>
         <Outlet />
-    </div>) : (<OnlineStatus />)
+    </div>
+    </Provider>) : (<OnlineStatus />)
 }
 
 const appRouter = createBrowserRouter([
