@@ -16,15 +16,12 @@ const cartSlice = createSlice({
             if (existing) {
                 existing.qty += 1; 
             } else {
-                if(state.restaurantID && state.restaurantID !== action.payload.card.info.restaurantId) {
-                    state.items = [];
-                }
                 state.items.push({ ...action.payload, qty: 1 }); 
                 state.restaurantID = action.payload.card.info.restaurantId;
             }
         },
         removeItem: (state ,action) => {
-            const existing = state.items.find(
+            const existing = state.items.find( 
                 item => item.card.info.id === action.payload.card.info.id
             );
             if (existing) {
