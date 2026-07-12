@@ -22,7 +22,7 @@ const Header = () => {
 
                                         {/* badge */}
                                         {cartItems.length > 0 && (
-                                        <span className="absolute -top-2 -left-2 bg-orange-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
+                                        <span className="absolute -top-2 -left-2 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
                                         {cartItems.length}
                                         </span>
                                  )}
