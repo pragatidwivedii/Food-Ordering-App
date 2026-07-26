@@ -16,7 +16,7 @@ import appStore from "./utils/appStore";
 import {Provider} from "react-redux";
 // import Grocery from "./components/Grocery";
 
-const Grocery = lazy(() => import("./components/Grocery"));
+// const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
     const onlineStatus = useOnlineStatus();
@@ -50,10 +50,10 @@ const appRouter = createBrowserRouter([
                 path: "/cart",
                 element: <Cart />
             },
-            {
-                path: "/grocery",
-                element: <Suspense fallback = {<div className="Body"><h1>Loading...</h1></div>}><Grocery /></Suspense>
-            },
+            // {
+            //     path: "/grocery",
+            //     element: <Suspense fallback = {<div className="Body"><h1>Loading...</h1></div>}><Grocery /></Suspense>
+            // },
             {
                 path: "/restaurants/:resId",
                 element: <Restaurantmenu />

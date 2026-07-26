@@ -50,7 +50,7 @@ const Body = () => {
                         return (res.info.avgRating > 4.3);
                     })
                     setFilteredList(filteredList);
-                }}>Top Rated Restaurants</button>
+                }}> Top Rated Restaurants </button>
             </div>
             <div className="m-2 border-2 rounded-2xl ">
                 <input className="mr-1 w-60 rounded-2xl p-2" type = "text" placeholder="Search for restaurants and food" value={searchText} onChange={(e) => {

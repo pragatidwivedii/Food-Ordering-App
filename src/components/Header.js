@@ -15,7 +15,7 @@ const Header = () => {
                     <li className="mx-5 font-bold text-xl"><Link to="/" >Home</Link></li>
                     <li className="mx-5 font-bold text-xl"><Link to="/about" >About Us</Link></li>
                     <li className="mx-5 font-bold text-xl"><Link to="/contact" >Contact Us</Link></li>
-                    <li className="mx-5 font-bold text-xl"><Link to="/grocery">Grocery</Link></li>
+                    {/* <li className="mx-5 font-bold text-xl"><Link to="/grocery">Grocery</Link></li> */}
                     <li className="mx-2 font-bold text-3xl"><Link to="/cart"> <div className="relative inline-block">
                                         {/* cart icon */}
                                         <span className="text-3xl">🛒</span>
@@ -28,7 +28,7 @@ const Header = () => {
                                  )}
                     </div></Link></li>
                    
-                    <button className = " border-2 rounded-2xl px-2 ml-2 text-lg bg-orange-400 text-white font-bold" onClick={()=> {
+                    <button className = " border-2 rounded-2xl px-2 ml-2 text-lg bg-orange-400 text-white font-bold cursor-pointer" onClick={()=> {
                         if(value === "LOGIN"){
                             setvalue("LOGOUT");
                         }
