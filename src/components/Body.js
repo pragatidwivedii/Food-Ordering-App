@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router";
 import OnlineStatus from "./OnlineStatus";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { MOCK_MENUS, MOCK_RES } from "../utils/constant";
 
 const Body = () => {
     // let [ListOfResturant, setFilteredResList] = useState(RES_LIST); // USESTATE hook
@@ -15,17 +16,12 @@ const Body = () => {
         fetchData();
     } , []);
 
-    // ***Fetching data from swiggy API***
+  
     const fetchData = async () => {
-        const data = await fetch("https://corsproxy.io/?url=https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.4479894&lng=81.8712467&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
-
-        const json = await data.json();
-        // console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants.map((res)=>{
-        //     return [res.info.name];
-        // }));
-        setListOfResturant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        setFilteredList(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        //console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        const data = MOCK_RES;
+        
+        setListOfResturant(data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setFilteredList(data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
 
     const onlinestatus = useOnlineStatus();

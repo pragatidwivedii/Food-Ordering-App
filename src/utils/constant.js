@@ -5310,3 +5310,1597 @@ export const MOCK_MENUS = {
     }
   }
 };
+
+export const MOCK_RES = {
+    "statusCode": 0,
+    "data": {
+        "cards": [
+          {},  
+          {
+                "card": {
+                    "card": {
+                        "id": "top_brands_for_you",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                                "restaurants": [
+                                    {
+                                        "info": {
+                                            "id": "80226",
+                                            "name": "Pizza Hut",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/15/21ff533f-6032-4d7a-83c3-7acd0e49f890_80226.JPG",
+                                            "locality": "Sardar Patel Marg",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Pizzas"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "721",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "17K+",
+                                            "sla": {
+                                                "deliveryTime": 26,
+                                                "lastMileTravel": 4.8,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.8 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "70% OFF",
+                                                "subHeader": "UPTO ₹130"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/pizza-hut-sardar-patel-marg-civil-lines-rest80226",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "301701",
+                                            "name": "Barbeque Nation",
+                                            "cloudinaryImageId": "zfjpphikobnnchm6llcu",
+                                            "locality": "P Square Mall",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹600 for two",
+                                            "cuisines": [
+                                                "North Indian",
+                                                "Barbecue",
+                                                "Kebabs",
+                                                "Biryani",
+                                                "Street Food",
+                                                "Snacks"
+                                            ],
+                                            "avgRating": 4,
+                                            "parentId": "2438",
+                                            "avgRatingString": "4.0",
+                                            "totalRatingsString": "2.1K+",
+                                            "sla": {
+                                                "deliveryTime": 26,
+                                                "lastMileTravel": 4.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "70% OFF",
+                                                "subHeader": "UPTO ₹130"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/barbeque-nation-p-square-mall-civil-lines-rest301701",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "82234",
+                                            "name": "KFC",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/7/1/bcbf489d-ea0d-4933-90a3-dee646a764f2_82234.JPG",
+                                            "locality": "Civil Lines",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹450 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "Fast Food",
+                                                "Rolls & Wraps"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "547",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "13K+",
+                                            "sla": {
+                                                "deliveryTime": 25,
+                                                "lastMileTravel": 4.1,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "4.1 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 01:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+                                                        "description": "Top-rated for Burger, based on user votes."
+                                                    },
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/85_Best%20in%20Corporate2026.png",
+                                                        "description": "Top-rated for Corporate, based on user votes."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Burger, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Corporate, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/85_Best%20in%20Corporate2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.1",
+                                                    "ratingCount": "6.6K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/kfc-civil-lines-rest82234",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "711210",
+                                            "name": "Gourmet Ice Cream Cakes by Baskin Robbins",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/12/276b5c5d-fedf-4663-8655-f262d7eddf21_711210.JPG",
+                                            "locality": "Gol Park Attarsuiya",
+                                            "areaName": "Meerapur",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Ice Cream Cakes",
+                                                "Desserts",
+                                                "Ice Cream",
+                                                "Bakery"
+                                            ],
+                                            "avgRating": 4.8,
+                                            "veg": true,
+                                            "parentId": "21932",
+                                            "avgRatingString": "4.8",
+                                            "totalRatingsString": "22",
+                                            "sla": {
+                                                "deliveryTime": 34,
+                                                "lastMileTravel": 6.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "6.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
+                                                    },
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "Serves only 100% vegetarian food, with no non-veg items."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
+                                                                    "imageId": "newg.png",
+                                                                    "theme": ""
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Serves only 100% vegetarian food, with no non-veg items.",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "₹100 OFF",
+                                                "subHeader": "ABOVE ₹999",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/gourmet-ice-cream-cakes-by-baskin-robbins-gol-park-attarsuiya-meerapur-rest711210",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "566514",
+                                            "name": "Faasos Signature Wraps & Rolls",
+                                            "cloudinaryImageId": "c583ca6ce40b426797a78ae2ac91f2ec",
+                                            "locality": "Stanley Road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Wraps",
+                                                "rolls",
+                                                "Fast Food",
+                                                "Burger",
+                                                "shawarma",
+                                                "Rice Bowls"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "340366",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "342",
+                                            "sla": {
+                                                "deliveryTime": 29,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/faasos-signature-wraps-and-rolls-stanley-road-civil-lines-rest566514",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "166944",
+                                            "name": "Chicago Pizza",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/25/8ad92888-5b48-4d4e-ae0a-2bbd91803422_166944.JPG",
+                                            "locality": "Medical Chauraha",
+                                            "areaName": "Katra",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "Pizzas",
+                                                "Italian"
+                                            ],
+                                            "avgRating": 4.1,
+                                            "parentId": "60277",
+                                            "avgRatingString": "4.1",
+                                            "totalRatingsString": "4.3K+",
+                                            "sla": {
+                                                "deliveryTime": 32,
+                                                "lastMileTravel": 4.5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "4.5 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 01:45:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/chicago-pizza-medical-chauraha-katra-rest166944",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "442057",
+                                            "name": "Veg Meals By LunchBox",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/15/16176155-6470-4459-a40f-df8481cd891b_442057.JPG",
+                                            "locality": "Civil Lines",
+                                            "areaName": "Stanley Road",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Biryani",
+                                                "North Indian",
+                                                "Desserts",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "veg": true,
+                                            "parentId": "21938",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "314",
+                                            "sla": {
+                                                "deliveryTime": 25,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/26_Best%20in%20North%20Indian2026.png",
+                                                        "description": "Top-rated for North Indian, based on user votes."
+                                                    },
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "Serves only 100% vegetarian food, with no non-veg items."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for North Indian, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/26_Best%20in%20North%20Indian2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Serves only 100% vegetarian food, with no non-veg items.",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/veg-meals-by-lunchbox-civil-lines-stanley-road-rest442057",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "639466",
+                                            "name": "Dum Safar Biryani",
+                                            "cloudinaryImageId": "1154cffac2453eb0bf7fdda7e5ea1659",
+                                            "locality": "Civil Lines",
+                                            "areaName": "SQUARE MALL",
+                                            "costForTwo": "₹500 for two",
+                                            "cuisines": [
+                                                "Biryani",
+                                                "Hyderabadi",
+                                                "Kebabs",
+                                                "North Indian",
+                                                "barbeque"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "351013",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "1.6K+",
+                                            "sla": {
+                                                "deliveryTime": 23,
+                                                "lastMileTravel": 4.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "4.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "60% OFF",
+                                                "subHeader": "UPTO ₹120"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/dum-safar-biryani-civil-lines-square-mall-rest639466",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "801461",
+                                            "name": "Makhani Darbar: Curries, Breads & Beyond",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/20/826675c4-d8cc-4446-9fbd-d1f76a64a335_801461.JPG",
+                                            "locality": "Civil Line Allahabad UP",
+                                            "areaName": "Stanley Road",
+                                            "costForTwo": "₹500 for two",
+                                            "cuisines": [
+                                                "Biryani",
+                                                "North Indian",
+                                                "Kebabs",
+                                                "Mughlai",
+                                                "Beverages",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4,
+                                            "parentId": "478595",
+                                            "avgRatingString": "4.0",
+                                            "totalRatingsString": "181",
+                                            "sla": {
+                                                "deliveryTime": 33,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/makhani-darbar-curries-breads-and-beyond-civil-line-up-stanley-road-rest801461",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "751357",
+                                            "name": "Keventers Waffles & Ice Cream",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/13/15cfb6fe-26a2-440e-b01e-47bc66503843_751357.JPG",
+                                            "locality": "Mahatma Gandhi Marg",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Ice Cream",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "veg": true,
+                                            "parentId": "624796",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "324",
+                                            "sla": {
+                                                "deliveryTime": 23,
+                                                "lastMileTravel": 5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "5.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 04:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹49"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/keventers-waffles-and-ice-cream-mahatma-gandhi-marg-civil-lines-rest751357",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "575254",
+                                            "name": "Veg Darbar by Behrouz Biryani",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/9/701e2b82-677e-4ffc-a919-e2f140b051f5_575254.JPG",
+                                            "locality": "Stanley Road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹700 for two",
+                                            "cuisines": [
+                                                "Biryani",
+                                                "North Indian",
+                                                "Kebabs",
+                                                "Mughlai",
+                                                "Beverages",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "veg": true,
+                                            "parentId": "344904",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "279",
+                                            "sla": {
+                                                "deliveryTime": 27,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "Serves only 100% vegetarian food, with no non-veg items."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Serves only 100% vegetarian food, with no non-veg items.",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/veg-darbar-by-behrouz-biryani-stanley-road-civil-lines-rest575254",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "437010",
+                                            "name": "Burger King",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/90239691-25e8-4701-abab-2878abd08091_437010.jpg",
+                                            "locality": "Vinayak City Centre Mall",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "American"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "parentId": "166",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "18K+",
+                                            "sla": {
+                                                "deliveryTime": 25,
+                                                "lastMileTravel": 5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "5.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 00:30:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+                                                        "description": "Top-rated for Burger, based on user votes."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Burger, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹59"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/burger-king-vinayak-city-centre-mall-civil-lines-rest437010",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "253769",
+                                            "name": "McDonald's",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/40408979-8937-40d6-9ca9-d9af67a23391_253769.JPG",
+                                            "locality": "Old Katra",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "American",
+                                                "Fast Food",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "parentId": "630",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "25K+",
+                                            "sla": {
+                                                "deliveryTime": 34,
+                                                "lastMileTravel": 4.4,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "4.4 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 04:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
+                                                        "description": "Top-rated for Bolt, based on user votes."
+                                                    },
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+                                                        "description": "Top-rated for Burger, based on user votes."
+                                                    },
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/85_Best%20in%20Corporate2026.png",
+                                                        "description": "Top-rated for Corporate, based on user votes."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Bolt, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Burger, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Corporate, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/85_Best%20in%20Corporate2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹52"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.1",
+                                                    "ratingCount": "6.3K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/mcdonalds-old-katra-civil-lines-rest253769",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "442049",
+                                            "name": "Faasos - Wraps, Rolls & Shawarma",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/28/ca658de1-a6d3-4870-8083-03e47de8cde9_442049.JPG",
+                                            "locality": "Stanley Road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Wraps",
+                                                "rolls",
+                                                "Fast Food",
+                                                "Burger",
+                                                "shawarma",
+                                                "Rice Bowls"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "21809",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "5.1K+",
+                                            "sla": {
+                                                "deliveryTime": 25,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹10"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/faasos-wraps-rolls-and-shawarma-stanley-road-civil-lines-rest442049",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "711209",
+                                            "name": "Baskin Robbins - Ice Cream Desserts",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/12/24/718ebc2c-8b3f-4d1a-8eb1-3b2b45328b1b_711209.jpg",
+                                            "locality": "Gol Park Attarsuiya",
+                                            "areaName": "Meerapur",
+                                            "costForTwo": "₹250 for two",
+                                            "cuisines": [
+                                                "Desserts",
+                                                "Ice Cream"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "veg": true,
+                                            "parentId": "5588",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "195",
+                                            "sla": {
+                                                "deliveryTime": 28,
+                                                "lastMileTravel": 6.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "6.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "brand_cards/Badges%202026/56_Best%20in%20Ice%20Cream2026.png",
+                                                        "description": "Top-rated for Ice Cream, based on user votes."
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Top-rated for Ice Cream, based on user votes.",
+                                                                    "imageId": "brand_cards/Badges%202026/56_Best%20in%20Ice%20Cream2026.png",
+                                                                    "theme": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹51"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/baskin-robbins-ice-cream-desserts-gol-park-attarsuiya-meerapur-rest711209",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "109962",
+                                            "name": "Rolls Mania - Rolls, Wraps & More",
+                                            "cloudinaryImageId": "luc4tudp8ak6d6obtjsy",
+                                            "locality": "Tej Bahadur Sapru road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Rolls & Wraps",
+                                                "Fast Food",
+                                                "Snacks",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "parentId": "514939",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "6.2K+",
+                                            "sla": {
+                                                "deliveryTime": 26,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹69"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/rolls-mania-rolls-wraps-and-more-tej-bahadur-sapru-road-civil-lines-rest109962",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "442052",
+                                            "name": "Firangi Bake",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/3/0126f1e4-f606-4710-80ab-a4ff55d0aa50_442052.jpg",
+                                            "locality": "Stanley Road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Pizzas",
+                                                "Pastas",
+                                                "Italian",
+                                                "Mexican",
+                                                "Healthy Food",
+                                                "Desserts",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "3952",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "287",
+                                            "sla": {
+                                                "deliveryTime": 30,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/firangi-bake-stanley-road-civil-lines-rest442052",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "126287",
+                                            "name": "UBQ-Meals,Thalis & Bowls",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/10/9eb86599-c2d6-4d24-8f39-7949aeb4368f_126287.JPG",
+                                            "locality": "P Square Mall",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "North Indian",
+                                                "Kebabs",
+                                                "Barbecue",
+                                                "Biryani",
+                                                "Street Food",
+                                                "Snacks"
+                                            ],
+                                            "avgRating": 3.9,
+                                            "parentId": "617376",
+                                            "avgRatingString": "3.9",
+                                            "totalRatingsString": "7.2K+",
+                                            "sla": {
+                                                "deliveryTime": 26,
+                                                "lastMileTravel": 4.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "4.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "60% OFF",
+                                                "subHeader": "UPTO ₹120"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/ubq-meals-thalis-and-bowls-p-square-mall-civil-lines-rest126287",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "442053",
+                                            "name": "Sweet Truth - Cake and Desserts",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/24/ca0da1aa-7731-4fab-88f9-7d14ee6124df_442053.JPG",
+                                            "locality": "Stanley Road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹450 for two",
+                                            "cuisines": [
+                                                "Desserts",
+                                                "Ice Cream",
+                                                "Bakery",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "4444",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "1.9K+",
+                                            "sla": {
+                                                "deliveryTime": 21,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/sweet-truth-cake-and-desserts-stanley-road-civil-lines-rest442053",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "442055",
+                                            "name": "The Good Bowl",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/15/382182e7-b4d7-4127-9168-1972545358ef_442055.jpg",
+                                            "locality": "Stanley Road",
+                                            "areaName": "Civil Lines",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Biryani",
+                                                "North Indian",
+                                                "Pastas",
+                                                "Punjabi",
+                                                "Desserts",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "7918",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "1.8K+",
+                                            "sla": {
+                                                "deliveryTime": 24,
+                                                "lastMileTravel": 4.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "4.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2026-07-27 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-e42e4343-754b-47be-9a76-5ff78d41fc6f"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/allahabad/the-good-bowl-stanley-road-civil-lines-rest442055",
+                                            "type": "WEBLINK"
+                                        }
+                                    }
+                                ]
+                            }
+                          }
+                        }
+                      }
+            }
+        ]
+    }
+}

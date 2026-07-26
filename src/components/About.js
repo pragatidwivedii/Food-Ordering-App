@@ -76,7 +76,7 @@ const AboutUs = () => {
   const projects = [
     {
       name: "NetflixGPT",
-      desc: "• Built a full-stack Netflix clone with email/password authentication using Firebase Auth, including field-level form validation and session persistence across page refreshes via onAuthStateChanged and engineered an AI-powered natural language movie search feature by integrating the Gemini API to parse user prompts into movie suggestions, cross-referenced with the TMDB API to fetch real posters, titles, and descriptions.",
+      desc: "Built a full-stack Netflix clone with email/password authentication using Firebase Auth, including field-level form validation and session persistence across page refreshes via onAuthStateChanged and engineered an AI-powered natural language movie search feature by integrating the Gemini API to parse user prompts into movie suggestions, cross-referenced with the TMDB API to fetch real posters, titles, and descriptions.",
     },
     {
       name: "Food Ordering App (this one!)",
